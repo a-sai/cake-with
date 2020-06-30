@@ -1,0 +1,68 @@
+.title_menu
+  = image_tag asset_path("games/top-image/top1.png"), id: "top-image"
+%ul.menu-list
+  %li.menu-item#button
+  .menu-item#gacha1{onclick: "scrollToGames()"}
+    %a
+      %i.far.fa-gem
+      ガチャガチャ
+      %i.far.fa-gem
+  .menu-item#gacha2{onclick: "scrollToGames2()"}
+    %a
+      %i.fas.fa-gem
+      %i.fas.fa-gem
+      %i.fas.fa-gem
+      SSR確定ガチャ
+      %i.fas.fa-gem
+      %i.fas.fa-gem
+      %i.fas.fa-gem
+%ul.menu-list2
+  %li.menu-item2#menu-item1
+    ↑ ゲーム一覧を表示します
+  %li.menu-item2#menu-item2
+.game-list
+  .reflection#change-top{style: "background-image: url(/assets/games/top-image/top2.png);"}
+  %ul.content-menu
+    %li.game-item
+      .game-icon
+        = image_tag asset_path("games/icons/grablu-icon.png"), class: "icon", id: "grablu"
+      .game-title グランブルーファンタジー
+    %li.game-item
+      .game-icon
+        = image_tag asset_path("games/icons/shadowverse-icon.png"), class: "icon", id: "shadowverse"
+      .game-title シャドウバース
+    %li.game-item
+      .game-icon
+        = image_tag asset_path("games/icons/priconne-icon.png"), class: "icon", id: "priconne"
+      .game-title プリンセスコネクト! Re:Dive
+    %li.game-item
+      .game-icon
+        = image_tag asset_path("games/icons/fankill-icon.png"), class: "icon", id: "fankill"
+      .game-title ファントムオブキル
+    %li.game-item
+      .game-icon
+        = image_tag asset_path("games/icons/fgo-icon.png"), class: "icon", id: "fgo"
+      .game-title Fate/Grand Order
+    %li.game-item
+      .game-icon
+        = image_tag asset_path("games/icons/pazdra-icon.png"), class: "icon", id: "pazdra"
+      .game-title パズル＆ドラゴンズ
+    %li.game-item
+      .game-icon
+        = image_tag asset_path("games/icons/monst-icon.png"), class: "icon", id: "monst"
+      .game-title モンスターストライク
+    %li.game-item
+      .game-icon
+        = image_tag asset_path("games/icons/dqwalk-icon.png"), class: "icon", id: "dqwalk"
+      .game-title ドラクエウォーク
+    %li.game-item
+      .game-icon
+        = image_tag asset_path("games/icons/yugioh-icon.png"), class: "icon", id: "yugioh"
+      .game-title 遊戯王 デュエルリンクス
+    %li.game-item
+      .game-icon
+        = image_tag asset_path("games/icons/feh-icon.png"), class: "icon", id: "feh"
+      .game-title
+        ファイアーエムブレム
+        %br
+        ヒーローズ

@@ -1,0 +1,21 @@
+body{
+  background: #efefef;
+}
+
+h1{
+  text-align: center;
+}
+
+img{
+  width: 450px;
+  height: 100%;
+  background-size: auto;
+}
+
+c-box {
+  box-shadow: 0 0 2px 0 rgba(0,0,0,.12), 0 1px 2px 0 rgba(0,0,0,.24);
+  border-radius: 2px;
+  overflow: hidden;
+  background-color: #FFF;
+  margin-bottom: 10px;
+}
