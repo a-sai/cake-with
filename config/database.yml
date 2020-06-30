@@ -50,5 +50,6 @@ test:
 production:
   <<: *default
   database: cake-with_production
-  username: cake-with
-  password: <%= ENV['CAKE-WITH_DATABASE_PASSWORD'] %>
+  username: root            #rootに変更
+  password: <%= ENV['DATABASE_PASSWORD'] %>
+  socket: /var/lib/mysql/mysql.sock
