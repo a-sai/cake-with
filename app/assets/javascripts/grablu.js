@@ -112,183 +112,183 @@ $(document).on('turbolinks:load', function(){
         };
         const gachaResult = document.getElementById('gacha-result').src;
         switch (gachaResult) {
-          case "http://localhost:3000/images/games/grablu/summon/1.png":
+          case "http://18.180.186.71/images/games/grablu/summon/1.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "グリームニル";
           break;
-          case "http://localhost:3000/images/games/grablu/summon/2.png":
+          case "http://18.180.186.71/images/games/grablu/summon/2.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "シヴァ";
           break;
-          case "http://localhost:3000/images/games/grablu/summon/3.png":
+          case "http://18.180.186.71/images/games/grablu/summon/3.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "エウロペ";
           break;
-          case "http://localhost:3000/images/games/grablu/summon/4.png":
+          case "http://18.180.186.71/images/games/grablu/summon/4.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ゴッドガード･ブローディア";
           break;
-          case "http://localhost:3000/images/games/grablu/summon/5.png":
+          case "http://18.180.186.71/images/games/grablu/summon/5.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ルシフェル";
           break;
-          case "http://localhost:3000/images/games/grablu/summon/6.png":
+          case "http://18.180.186.71/images/games/grablu/summon/6.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "バハムート";
           break;
-          case "http://localhost:3000/images/games/grablu/summon/7.png":
+          case "http://18.180.186.71/images/games/grablu/summon/7.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ラファエル";
           break;
-          case "http://localhost:3000/images/games/grablu/summon/8.png":
+          case "http://18.180.186.71/images/games/grablu/summon/8.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ミカエル";
           break;
-          case "http://localhost:3000/images/games/grablu/summon/9.png":
+          case "http://18.180.186.71/images/games/grablu/summon/9.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ガブリエル";
           break;
-          case "http://localhost:3000/images/games/grablu/summon/10.png":
+          case "http://18.180.186.71/images/games/grablu/summon/10.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ウリエル";
           break;
-          case "http://localhost:3000/images/games/grablu/summon/11.png":
+          case "http://18.180.186.71/images/games/grablu/summon/11.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "メタトロン";
           break;
-          case "http://localhost:3000/images/games/grablu/summon/12.png":
+          case "http://18.180.186.71/images/games/grablu/summon/12.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "サリエル";
           break;
-          case "http://localhost:3000/images/games/grablu/summon/13.png":
+          case "http://18.180.186.71/images/games/grablu/summon/13.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ベリアル";
           break;
-          case "http://localhost:3000/images/games/grablu/ssr/1.png":
+          case "http://18.180.186.71/images/games/grablu/ssr/1.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ユイシス";
           break;
-          case "http://localhost:3000/images/games/grablu/ssr/2.png":
+          case "http://18.180.186.71/images/games/grablu/ssr/2.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ヴァジラ";
           break;
-          case "http://localhost:3000/images/games/grablu/ssr/3.png":
+          case "http://18.180.186.71/images/games/grablu/ssr/3.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "イルザ";
           break;
-          case "http://localhost:3000/images/games/grablu/ssr/4.png":
+          case "http://18.180.186.71/images/games/grablu/ssr/4.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ヘルエス";
           break;
-          case "http://localhost:3000/images/games/grablu/ssr/5.png":
+          case "http://18.180.186.71/images/games/grablu/ssr/5.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "フェリ";
           break;
-          case "http://localhost:3000/images/games/grablu/ssr/6.png":
+          case "http://18.180.186.71/images/games/grablu/ssr/6.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "アンスリア";
           break;
-          case "http://localhost:3000/images/games/grablu/ssr/7.png":
+          case "http://18.180.186.71/images/games/grablu/ssr/7.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "アテナ";
           break;
-          case "http://localhost:3000/images/games/grablu/ssr/8.png":
+          case "http://18.180.186.71/images/games/grablu/ssr/8.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "マキュラ･マリウス";
           break;
-          case "http://localhost:3000/images/games/grablu/ssr/9.png":
+          case "http://18.180.186.71/images/games/grablu/ssr/9.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ゆぐゆぐ";
           break;
-          case "http://localhost:3000/images/games/grablu/ssr/10.png":
+          case "http://18.180.186.71/images/games/grablu/ssr/10.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ティアマト";
           break;
-          case "http://localhost:3000/images/games/grablu/ssr/11.png":
+          case "http://18.180.186.71/images/games/grablu/ssr/11.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ゾーイ";
           break;
-          case "http://localhost:3000/images/games/grablu/ssr/12.png":
+          case "http://18.180.186.71/images/games/grablu/ssr/12.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ケルベロス";
           break;
-          case "http://localhost:3000/images/games/grablu/sr/1.png":
+          case "http://18.180.186.71/images/games/grablu/sr/1.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ミリン";
           break;
-          case "http://localhost:3000/images/games/grablu/sr/2.png":
+          case "http://18.180.186.71/images/games/grablu/sr/2.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "エジェリー";
           break;
-          case "http://localhost:3000/images/games/grablu/sr/3.png":
+          case "http://18.180.186.71/images/games/grablu/sr/3.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "マイム";
           break;
-          case "http://localhost:3000/images/games/grablu/sr/4.png":
+          case "http://18.180.186.71/images/games/grablu/sr/4.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "レオナ";
           break;
-          case "http://localhost:3000/images/games/grablu/sr/5.png":
+          case "http://18.180.186.71/images/games/grablu/sr/5.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ヤイア";
           break;
-          case "http://localhost:3000/images/games/grablu/sr/6.png":
+          case "http://18.180.186.71/images/games/grablu/sr/6.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "プレデター";
           break;
-          case "http://localhost:3000/images/games/grablu/sr/7.png":
+          case "http://18.180.186.71/images/games/grablu/sr/7.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ククル";
           break;
-          case "http://localhost:3000/images/games/grablu/sr/8.png":
+          case "http://18.180.186.71/images/games/grablu/sr/8.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "テレーズ";
           break;
-          case "http://localhost:3000/images/games/grablu/sr/9.png":
+          case "http://18.180.186.71/images/games/grablu/sr/9.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "コルワ";
           break;
-          case "http://localhost:3000/images/games/grablu/sr/10.png":
+          case "http://18.180.186.71/images/games/grablu/sr/10.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ダヌア";
           break;
-          case "http://localhost:3000/images/games/grablu/r/1.png":
+          case "http://18.180.186.71/images/games/grablu/r/1.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ロザミア";
           break;
-          case "http://localhost:3000/images/games/grablu/r/2.png":
+          case "http://18.180.186.71/images/games/grablu/r/2.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "カイラナ";
           break;
-          case "http://localhost:3000/images/games/grablu/r/3.png":
+          case "http://18.180.186.71/images/games/grablu/r/3.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ルナール";
           break;
-          case "http://localhost:3000/images/games/grablu/r/4.png":
+          case "http://18.180.186.71/images/games/grablu/r/4.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "マリー";
           break;
-          case "http://localhost:3000/images/games/grablu/r/5.png":
+          case "http://18.180.186.71/images/games/grablu/r/5.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "クムユ";
           break;
-          case "http://localhost:3000/images/games/grablu/r/6.png":
+          case "http://18.180.186.71/images/games/grablu/r/6.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "K･B･S･N";
           break;
-          case "http://localhost:3000/images/games/grablu/r/7.png":
+          case "http://18.180.186.71/images/games/grablu/r/7.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "アリステラ";
           break;
-          case "http://localhost:3000/images/games/grablu/r/8.png":
+          case "http://18.180.186.71/images/games/grablu/r/8.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "イッパツ";
           break;
-          case "http://localhost:3000/images/games/grablu/r/9.png":
+          case "http://18.180.186.71/images/games/grablu/r/9.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ブリジール";
           break;
-          case "http://localhost:3000/images/games/grablu/r/10.png":
+          case "http://18.180.186.71/images/games/grablu/r/10.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ウェルダー";
           break;

@@ -84,83 +84,83 @@ $(document).on('turbolinks:load', function(){
         };
         const gachaResult = document.getElementById('gacha-result').src;
         switch (gachaResult) {
-          case "http://localhost:3000/images/games/monst/ssr/1.png":
+          case "http://18.180.186.71/images/games/monst/ssr/1.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ルシファー";
           break;
-          case "http://localhost:3000/images/games/monst/ssr/2.png":
+          case "http://18.180.186.71/images/games/monst/ssr/2.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ガブリエル";
           break;
-          case "http://localhost:3000/images/games/monst/ssr/3.png":
+          case "http://18.180.186.71/images/games/monst/ssr/3.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ミカエル";
           break;
-          case "http://localhost:3000/images/games/monst/ssr/4.png":
+          case "http://18.180.186.71/images/games/monst/ssr/4.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ラファエル";
           break;
-          case "http://localhost:3000/images/games/monst/ssr/5.png":
+          case "http://18.180.186.71/images/games/monst/ssr/5.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ウリエル";
           break;
-          case "http://localhost:3000/images/games/monst/ssr/6.png":
+          case "http://18.180.186.71/images/games/monst/ssr/6.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "エクスカリバー";
           break;
-          case "http://localhost:3000/images/games/monst/ssr/7.png":
+          case "http://18.180.186.71/images/games/monst/ssr/7.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "風神雷神";
           break;
-          case "http://localhost:3000/images/games/monst/ssr/8.png":
+          case "http://18.180.186.71/images/games/monst/ssr/8.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ユグドラシル";
           break;
-          case "http://localhost:3000/images/games/monst/ssr/9.png":
+          case "http://18.180.186.71/images/games/monst/ssr/9.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ソロモン";
           break;
-          case "http://localhost:3000/images/games/monst/ssr/10.png":
+          case "http://18.180.186.71/images/games/monst/ssr/10.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "アトゥム";
           break;
-          case "http://localhost:3000/images/games/monst/sr/1.png":
+          case "http://18.180.186.71/images/games/monst/sr/1.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "アマテラス";
           break;
-          case "http://localhost:3000/images/games/monst/sr/2.png":
+          case "http://18.180.186.71/images/games/monst/sr/2.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "アフロディーテ";
           break;
-          case "http://localhost:3000/images/games/monst/sr/3.png":
+          case "http://18.180.186.71/images/games/monst/sr/3.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ネプチューン";
           break;
-          case "http://localhost:3000/images/games/monst/sr/4.png":
+          case "http://18.180.186.71/images/games/monst/sr/4.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "レヴィアタン";
           break;
-          case "http://localhost:3000/images/games/monst/sr/5.png":
+          case "http://18.180.186.71/images/games/monst/sr/5.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "イシス";
           break;
-          case "http://localhost:3000/images/games/monst/sr/6.png":
+          case "http://18.180.186.71/images/games/monst/sr/6.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ジュピター";
           break;
-          case "http://localhost:3000/images/games/monst/sr/7.png":
+          case "http://18.180.186.71/images/games/monst/sr/7.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ヴィーナス";
           break;
-          case "http://localhost:3000/images/games/monst/sr/8.png":
+          case "http://18.180.186.71/images/games/monst/sr/8.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ヘルメス";
           break;
-          case "http://localhost:3000/images/games/monst/sr/9.png":
+          case "http://18.180.186.71/images/games/monst/sr/9.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "シヴァ";
           break;
-          case "http://localhost:3000/images/games/monst/sr/10.png":
+          case "http://18.180.186.71/images/games/monst/sr/10.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ホルス";
           break;

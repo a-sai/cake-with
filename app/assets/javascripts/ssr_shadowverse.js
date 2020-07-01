@@ -61,67 +61,67 @@ $(document).on('turbolinks:load', function(){
 
         const gachaResult = document.getElementById('gacha-result2').src;
         switch (gachaResult) {
-          case "http://localhost:3000/images/games/shadowverse/legend/l_f_1.png":
+          case "http://18.180.186.71/images/games/shadowverse/legend/l_f_1.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "始祖の大狼・オムニス";
           break;
-          case "http://localhost:3000/images/games/shadowverse/legend/l_f_2.png":
+          case "http://18.180.186.71/images/games/shadowverse/legend/l_f_2.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "レヴィオンの英雄・アルベール";
           break;
-          case "http://localhost:3000/images/games/shadowverse/legend/l_f_3.png":
+          case "http://18.180.186.71/images/games/shadowverse/legend/l_f_3.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "蒼の反逆者・テトラ";
           break;
-          case "http://localhost:3000/images/games/shadowverse/legend/l_f_4.png":
+          case "http://18.180.186.71/images/games/shadowverse/legend/l_f_4.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "蒼海の主・ネプチューン";
           break;
-          case "http://localhost:3000/images/games/shadowverse/legend/l_f_5.png":
+          case "http://18.180.186.71/images/games/shadowverse/legend/l_f_5.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "紫紺の抵抗者・エンネア";
           break;
-          case "http://localhost:3000/images/games/shadowverse/legend/l_f_6.png":
+          case "http://18.180.186.71/images/games/shadowverse/legend/l_f_6.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "真紅の抗戦者・モノ";
           break;
-          case "http://localhost:3000/images/games/shadowverse/legend/l_f_7.png":
+          case "http://18.180.186.71/images/games/shadowverse/legend/l_f_7.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "清純なる祈り・エイラ";
           break;
-          case "http://localhost:3000/images/games/shadowverse/legend/l_f_8.png":
+          case "http://18.180.186.71/images/games/shadowverse/legend/l_f_8.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "ラグナアウェイク";
           break;
-          case "http://localhost:3000/images/games/shadowverse/legend/l_nf_1.png":
+          case "http://18.180.186.71/images/games/shadowverse/legend/l_nf_1.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "至高の戦神・オーディン";
           break;
-          case "http://localhost:3000/images/games/shadowverse/legend/l_nf_2.png":
+          case "http://18.180.186.71/images/games/shadowverse/legend/l_nf_2.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "アイギスシールド・アテナ";
           break;
-          case "http://localhost:3000/images/games/shadowverse/legend/l_nf_3.png":
+          case "http://18.180.186.71/images/games/shadowverse/legend/l_nf_3.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "鋼鉄と大地の神";
           break;
-          case "http://localhost:3000/images/games/shadowverse/legend/l_nf_4.png":
+          case "http://18.180.186.71/images/games/shadowverse/legend/l_nf_4.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "至高神・ゼウス";
           break;
-          case "http://localhost:3000/images/games/shadowverse/legend/l_nf_5.png":
+          case "http://18.180.186.71/images/games/shadowverse/legend/l_nf_5.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "母なる君";
           break;
-          case "http://localhost:3000/images/games/shadowverse/legend/l_nf_6.png":
+          case "http://18.180.186.71/images/games/shadowverse/legend/l_nf_6.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "闇の翼・オリヴィエ";
           break;
-          case "http://localhost:3000/images/games/shadowverse/legend/l_nf_7.png":
+          case "http://18.180.186.71/images/games/shadowverse/legend/l_nf_7.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "神託の大天使・ガブリエル";
           break;
-          case "http://localhost:3000/images/games/shadowverse/legend/l_nf_8.png":
+          case "http://18.180.186.71/images/games/shadowverse/legend/l_nf_8.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "機械神";
           break;

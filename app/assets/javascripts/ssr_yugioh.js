@@ -59,51 +59,51 @@ $(document).on('turbolinks:load', function(){
 
         const gachaResult = document.getElementById('gacha-result2').src;
         switch (gachaResult) {
-          case "http://localhost:3000/images/games/yugioh/ur/1.png":
+          case "http://18.180.186.71/images/games/yugioh/ur/1.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "デュナミス・ヴァルキリア";
           break;
-          case "http://localhost:3000/images/games/yugioh/ur/2.png":
+          case "http://18.180.186.71/images/games/yugioh/ur/2.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "混沌の黒魔術師";
           break;
-          case "http://localhost:3000/images/games/yugioh/ur/3.png":
+          case "http://18.180.186.71/images/games/yugioh/ur/3.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "サイバー・ドラゴン";
           break;
-          case "http://localhost:3000/images/games/yugioh/ur/4.png":
+          case "http://18.180.186.71/images/games/yugioh/ur/4.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "カオス・ソルジャー";
           break;
-          case "http://localhost:3000/images/games/yugioh/ur/5.png":
+          case "http://18.180.186.71/images/games/yugioh/ur/5.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "青眼の究極竜";
           break;
-          case "http://localhost:3000/images/games/yugioh/ur/6.png":
+          case "http://18.180.186.71/images/games/yugioh/ur/6.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "竜騎士ブラック・マジシャン・ガール";
           break;
-          case "http://localhost:3000/images/games/yugioh/ur/7.png":
+          case "http://18.180.186.71/images/games/yugioh/ur/7.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "ブラック・ローズ・ドラゴン";
           break;
-          case "http://localhost:3000/images/games/yugioh/ur/8.png":
+          case "http://18.180.186.71/images/games/yugioh/ur/8.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "氷結界の龍 ブリューナク";
           break;
-          case "http://localhost:3000/images/games/yugioh/ur/9.png":
+          case "http://18.180.186.71/images/games/yugioh/ur/9.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "予想GUY";
           break;
-          case "http://localhost:3000/images/games/yugioh/ur/10.png":
+          case "http://18.180.186.71/images/games/yugioh/ur/10.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "融合解除";
           break;
-          case "http://localhost:3000/images/games/yugioh/ur/11.png":
+          case "http://18.180.186.71/images/games/yugioh/ur/11.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "鎖付きブーメラン";
           break;
-          case "http://localhost:3000/images/games/yugioh/ur/12.png":
+          case "http://18.180.186.71/images/games/yugioh/ur/12.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "万能地雷グレイモヤ";
           break;

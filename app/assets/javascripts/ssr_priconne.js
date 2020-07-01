@@ -61,67 +61,67 @@ $(document).on('turbolinks:load', function(){
 
         const gachaResult = document.getElementById('gacha-result2').src;
         switch (gachaResult) {
-          case "http://localhost:3000/images/games/priconne/ssr/1.png":
+          case "http://18.180.186.71/images/games/priconne/ssr/1.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "ユニ";
           break;
-          case "http://localhost:3000/images/games/priconne/ssr/2.png":
+          case "http://18.180.186.71/images/games/priconne/ssr/2.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "チエル";
           break;
-          case "http://localhost:3000/images/games/priconne/ssr/3.png":
+          case "http://18.180.186.71/images/games/priconne/ssr/3.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "クロエ";
           break;
-          case "http://localhost:3000/images/games/priconne/ssr/4.png":
+          case "http://18.180.186.71/images/games/priconne/ssr/4.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "カスミ(マジカル)";
           break;
-          case "http://localhost:3000/images/games/priconne/ssr/5.png":
+          case "http://18.180.186.71/images/games/priconne/ssr/5.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "キョウカ(ハロウィン)";
           break;
-          case "http://localhost:3000/images/games/priconne/ssr/6.png":
+          case "http://18.180.186.71/images/games/priconne/ssr/6.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "シズル(バレンタイン)";
           break;
-          case "http://localhost:3000/images/games/priconne/ssr/7.png":
+          case "http://18.180.186.71/images/games/priconne/ssr/7.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "キャル(ニューイヤー)";
           break;
-          case "http://localhost:3000/images/games/priconne/ssr/8.png":
+          case "http://18.180.186.71/images/games/priconne/ssr/8.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "コッコロ(ニューイヤー)";
           break;
-          case "http://localhost:3000/images/games/priconne/ssr/9.png":
+          case "http://18.180.186.71/images/games/priconne/ssr/9.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "ニノン(オーエド)";
           break;
-          case "http://localhost:3000/images/games/priconne/ssr/10.png":
+          case "http://18.180.186.71/images/games/priconne/ssr/10.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "マコト(サマー)";
           break;
-          case "http://localhost:3000/images/games/priconne/ssr/11.png":
+          case "http://18.180.186.71/images/games/priconne/ssr/11.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "アンナ";
           break;
-          case "http://localhost:3000/images/games/priconne/ssr/12.png":
+          case "http://18.180.186.71/images/games/priconne/ssr/12.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "トモ";
           break;
-          case "http://localhost:3000/images/games/priconne/ssr/13.png":
+          case "http://18.180.186.71/images/games/priconne/ssr/13.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "サレン(サマー)";
           break;
-          case "http://localhost:3000/images/games/priconne/ssr/14.png":
+          case "http://18.180.186.71/images/games/priconne/ssr/14.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "イリヤ";
           break;
-          case "http://localhost:3000/images/games/priconne/ssr/15.png":
+          case "http://18.180.186.71/images/games/priconne/ssr/15.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "マホ";
           break;
-          case "http://localhost:3000/images/games/priconne/ssr/16.png":
+          case "http://18.180.186.71/images/games/priconne/ssr/16.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "ハツネ";
           break;

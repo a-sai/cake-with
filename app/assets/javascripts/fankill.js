@@ -157,95 +157,95 @@ $(document).on('turbolinks:load', function(){
         };
         const gachaResult = document.getElementById('gacha-result').src;
         switch (gachaResult) {
-          case "http://localhost:3000/images/games/fankill/physics/1.png":
+          case "http://18.180.186.71/images/games/fankill/physics/1.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "アスカロン";
           break;
-          case "http://localhost:3000/images/games/fankill/physics/2.png":
+          case "http://18.180.186.71/images/games/fankill/physics/2.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "フォルカス";
           break;
-          case "http://localhost:3000/images/games/fankill/physics/3.png":
+          case "http://18.180.186.71/images/games/fankill/physics/3.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ムラマサ";
           break;
-          case "http://localhost:3000/images/games/fankill/physics/4.png":
+          case "http://18.180.186.71/images/games/fankill/physics/4.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "シユウ";
           break;
-          case "http://localhost:3000/images/games/fankill/physics/5.png":
+          case "http://18.180.186.71/images/games/fankill/physics/5.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "アフロディーテ";
           break;
-          case "http://localhost:3000/images/games/fankill/physics/6.png":
+          case "http://18.180.186.71/images/games/fankill/physics/6.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "リットゥ";
           break;
-          case "http://localhost:3000/images/games/fankill/physics/7.png":
+          case "http://18.180.186.71/images/games/fankill/physics/7.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ダーインスレイヴ";
           break;
-          case "http://localhost:3000/images/games/fankill/physics/8.png":
+          case "http://18.180.186.71/images/games/fankill/physics/8.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "シタ";
           break;
-          case "http://localhost:3000/images/games/fankill/physics/9.png":
+          case "http://18.180.186.71/images/games/fankill/physics/9.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ハルパー";
           break;
-          case "http://localhost:3000/images/games/fankill/physics/10.png":
+          case "http://18.180.186.71/images/games/fankill/physics/10.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ゲイボルグ";
           break;
-          case "http://localhost:3000/images/games/fankill/physics/11.png":
+          case "http://18.180.186.71/images/games/fankill/physics/11.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "青龍偃月刀";
           break;
-          case "http://localhost:3000/images/games/fankill/physics/12.png":
+          case "http://18.180.186.71/images/games/fankill/physics/12.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "シェキナー";
           break;
-          case "http://localhost:3000/images/games/fankill/physics/13.png":
+          case "http://18.180.186.71/images/games/fankill/physics/13.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "与一";
           break;
-          case "http://localhost:3000/images/games/fankill/magic/1.png":
+          case "http://18.180.186.71/images/games/fankill/magic/1.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "グリモワール";
           break;
-          case "http://localhost:3000/images/games/fankill/magic/2.png":
+          case "http://18.180.186.71/images/games/fankill/magic/2.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ヴァナルガンド";
           break;
-          case "http://localhost:3000/images/games/fankill/magic/3.png":
+          case "http://18.180.186.71/images/games/fankill/magic/3.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "芭蕉扇";
           break;
-          case "http://localhost:3000/images/games/fankill/magic/4.png":
+          case "http://18.180.186.71/images/games/fankill/magic/4.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ブリューナク";
           break;
-          case "http://localhost:3000/images/games/fankill/magic/5.png":
+          case "http://18.180.186.71/images/games/fankill/magic/5.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ケラウノス";
           break;
-          case "http://localhost:3000/images/games/fankill/magic/6.png":
+          case "http://18.180.186.71/images/games/fankill/magic/6.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "アスクレピオス";
           break;
-          case "http://localhost:3000/images/games/fankill/magic/7.png":
+          case "http://18.180.186.71/images/games/fankill/magic/7.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ケーリュケイオン";
           break;
-          case "http://localhost:3000/images/games/fankill/magic/8.png":
+          case "http://18.180.186.71/images/games/fankill/magic/8.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "カドケウス";
           break;
-          case "http://localhost:3000/images/games/fankill/magic/9.png":
+          case "http://18.180.186.71/images/games/fankill/magic/9.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ミストルティン";
           break;
-          case "http://localhost:3000/images/games/fankill/magic/10.png":
+          case "http://18.180.186.71/images/games/fankill/magic/10.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "フライシュッツ";
           break;

@@ -59,43 +59,43 @@ $(document).on('turbolinks:load', function(){
 
         const gachaResult = document.getElementById('gacha-result2').src;
         switch (gachaResult) {
-          case "http://localhost:3000/images/games/pazdra/ssr/1.png":
+          case "http://18.180.186.71/images/games/pazdra/ssr/1.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "レムゥ";
           break;
-          case "http://localhost:3000/images/games/pazdra/ssr/2.png":
+          case "http://18.180.186.71/images/games/pazdra/ssr/2.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "ノルザ";
           break;
-          case "http://localhost:3000/images/games/pazdra/ssr/3.png":
+          case "http://18.180.186.71/images/games/pazdra/ssr/3.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "アルジェ";
           break;
-          case "http://localhost:3000/images/games/pazdra/ssr/4.png":
+          case "http://18.180.186.71/images/games/pazdra/ssr/4.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "ファスカ";
           break;
-          case "http://localhost:3000/images/games/pazdra/ssr/5.png":
+          case "http://18.180.186.71/images/games/pazdra/ssr/5.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "ネレ";
           break;
-          case "http://localhost:3000/images/games/pazdra/ssr/6.png":
+          case "http://18.180.186.71/images/games/pazdra/ssr/6.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "龍刀・蛇骨姫";
           break;
-          case "http://localhost:3000/images/games/pazdra/ssr/7.png":
+          case "http://18.180.186.71/images/games/pazdra/ssr/7.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "龍刀・薄霧";
           break;
-          case "http://localhost:3000/images/games/pazdra/ssr/8.png":
+          case "http://18.180.186.71/images/games/pazdra/ssr/8.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "龍刀・九斬公";
           break;
-          case "http://localhost:3000/images/games/pazdra/ssr/9.png":
+          case "http://18.180.186.71/images/games/pazdra/ssr/9.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "龍刀・我乱童子";
           break;
-          case "http://localhost:3000/images/games/pazdra/ssr/10.png":
+          case "http://18.180.186.71/images/games/pazdra/ssr/10.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "龍刀・宙天丸";
           break;

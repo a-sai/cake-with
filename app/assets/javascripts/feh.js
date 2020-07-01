@@ -98,123 +98,123 @@ $(document).on('turbolinks:load', function(){
         };
         const gachaResult = document.getElementById('gacha-result').src;
         switch (gachaResult) {
-          case "http://localhost:3000/images/games/feh/ssr/1.png":
+          case "http://18.180.186.71/images/games/feh/ssr/1.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ルキナ";
           break;
-          case "http://localhost:3000/images/games/feh/ssr/2.png":
+          case "http://18.180.186.71/images/games/feh/ssr/2.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "リン";
           break;
-          case "http://localhost:3000/images/games/feh/ssr/3.png":
+          case "http://18.180.186.71/images/games/feh/ssr/3.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "つばさ";
           break;
-          case "http://localhost:3000/images/games/feh/ssr/4.png":
+          case "http://18.180.186.71/images/games/feh/ssr/4.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "キヌ";
           break;
-          case "http://localhost:3000/images/games/feh/ssr/5.png":
+          case "http://18.180.186.71/images/games/feh/ssr/5.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "アクア";
           break;
-          case "http://localhost:3000/images/games/feh/ssr/6.png":
+          case "http://18.180.186.71/images/games/feh/ssr/6.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "カムイ";
           break;
-          case "http://localhost:3000/images/games/feh/ssr/7.png":
+          case "http://18.180.186.71/images/games/feh/ssr/7.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "エイル";
           break;
-          case "http://localhost:3000/images/games/feh/ssr/8.png":
+          case "http://18.180.186.71/images/games/feh/ssr/8.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "マルス";
           break;
-          case "http://localhost:3000/images/games/feh/ssr/9.png":
+          case "http://18.180.186.71/images/games/feh/ssr/9.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ロイ";
           break;
-          case "http://localhost:3000/images/games/feh/ssr/10.png":
+          case "http://18.180.186.71/images/games/feh/ssr/10.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "アイク";
           break;
-          case "http://localhost:3000/images/games/feh/sr/1.png":
+          case "http://18.180.186.71/images/games/feh/sr/1.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "リリーナ";
           break;
-          case "http://localhost:3000/images/games/feh/sr/2.png":
+          case "http://18.180.186.71/images/games/feh/sr/2.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ニノ";
           break;
-          case "http://localhost:3000/images/games/feh/sr/3.png":
+          case "http://18.180.186.71/images/games/feh/sr/3.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "シーダ";
           break;
-          case "http://localhost:3000/images/games/feh/sr/4.png":
+          case "http://18.180.186.71/images/games/feh/sr/4.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "カミラ";
           break;
-          case "http://localhost:3000/images/games/feh/sr/5.png":
+          case "http://18.180.186.71/images/games/feh/sr/5.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "セシリア";
           break;
-          case "http://localhost:3000/images/games/feh/sr/6.png":
+          case "http://18.180.186.71/images/games/feh/sr/6.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "エイリーク";
           break;
-          case "http://localhost:3000/images/games/feh/sr/7.png":
+          case "http://18.180.186.71/images/games/feh/sr/7.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "デューテ";
           break;
-          case "http://localhost:3000/images/games/feh/sr/8.png":
+          case "http://18.180.186.71/images/games/feh/sr/8.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ラインハルト";
           break;
-          case "http://localhost:3000/images/games/feh/sr/9.png":
+          case "http://18.180.186.71/images/games/feh/sr/9.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ラス";
           break;
-          case "http://localhost:3000/images/games/feh/sr/10.png":
+          case "http://18.180.186.71/images/games/feh/sr/10.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "アベル";
           break;
-          case "http://localhost:3000/images/games/feh/r/1.png":
+          case "http://18.180.186.71/images/games/feh/r/1.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "リュシオン";
           break;
-          case "http://localhost:3000/images/games/feh/r/2.png":
+          case "http://18.180.186.71/images/games/feh/r/2.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ネサラ";
           break;
-          case "http://localhost:3000/images/games/feh/r/3.png":
+          case "http://18.180.186.71/images/games/feh/r/3.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "アシュナード";
           break;
-          case "http://localhost:3000/images/games/feh/r/4.png":
+          case "http://18.180.186.71/images/games/feh/r/4.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ケンプフ";
           break;
-          case "http://localhost:3000/images/games/feh/r/5.png":
+          case "http://18.180.186.71/images/games/feh/r/5.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "バルボ";
           break;
-          case "http://localhost:3000/images/games/feh/r/6.png":
+          case "http://18.180.186.71/images/games/feh/r/6.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "パイソン";
           break;
-          case "http://localhost:3000/images/games/feh/r/7.png":
+          case "http://18.180.186.71/images/games/feh/r/7.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "カイン";
           break;
-          case "http://localhost:3000/images/games/feh/r/8.png":
+          case "http://18.180.186.71/images/games/feh/r/8.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "コンラート";
           break;
-          case "http://localhost:3000/images/games/feh/r/9.png":
+          case "http://18.180.186.71/images/games/feh/r/9.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "モゥディ";
           break;
-          case "http://localhost:3000/images/games/feh/r/10.png":
+          case "http://18.180.186.71/images/games/feh/r/10.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ルトガー";
           break;
