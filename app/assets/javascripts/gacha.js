@@ -29,10 +29,10 @@ $(document).on('turbolinks:load', function(){
 
         const n = Math.random();
 
-        const results1 = ["assets/games/gacha/pin/1.png","assets/games/gacha/pin/2.png","assets/games/gacha/pin/3.png",
-                          "assets/games/gacha/pin/4.png", "assets/games/gacha/pin/5.png","assets/games/gacha/pin/6.png",
-                          "assets/games/gacha/pin/7.png","assets/games/gacha/pin/8.png","assets/games/gacha/pin/9.png",
-                          "assets/games/gacha/pin/10.png"
+        const results1 = ["assets/images/games/gacha/pin/1.png","assets/images/games/gacha/pin/2.png","assets/images/games/gacha/pin/3.png",
+                          "assets/images/games/gacha/pin/4.png", "assets/images/games/gacha/pin/5.png","assets/images/games/gacha/pin/6.png",
+                          "assets/images/games/gacha/pin/7.png","assets/images/games/gacha/pin/8.png","assets/images/games/gacha/pin/9.png",
+                          "assets/images/games/gacha/pin/10.png"
                         ];
         const n1 = Math.floor(Math.random()*results1.length);
         document.getElementById('gacha-result').src = results1[n1];
@@ -41,43 +41,43 @@ $(document).on('turbolinks:load', function(){
 
         const gachaResult = document.getElementById('gacha-result').src;
         switch (gachaResult) {
-          case "http://localhost:3000/assets/games/gacha/pin/1.png":
+          case "http://localhost:3000/assets/images/games/gacha/pin/1.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ガチャピン";
           break;
-          case "http://localhost:3000/assets/games/gacha/pin/2.png":
+          case "http://localhost:3000/assets/images/games/gacha/pin/2.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ガチャピン&ムック";
           break;
-          case "http://localhost:3000/assets/games/gacha/pin/3.png":
+          case "http://localhost:3000/assets/images/games/gacha/pin/3.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ガチャピン&ムック";
           break;
-          case "http://localhost:3000/assets/games/gacha/pin/4.png":
+          case "http://localhost:3000/assets/images/games/gacha/pin/4.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ガチャピン";
           break;
-          case "http://localhost:3000/assets/games/gacha/pin/5.png":
+          case "http://localhost:3000/assets/images/games/gacha/pin/5.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ガチャピン";
           break;
-          case "http://localhost:3000/assets/games/gacha/pin/6.png":
+          case "http://localhost:3000/assets/images/games/gacha/pin/6.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ガチャピン";
           break;
-          case "http://localhost:3000/assets/games/gacha/pin/7.png":
+          case "http://localhost:3000/assets/images/games/gacha/pin/7.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ムック";
           break;
-          case "http://localhost:3000/assets/games/gacha/pin/8.png":
+          case "http://localhost:3000/assets/images/games/gacha/pin/8.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ガチャピン&ムック";
           break;
-          case "http://localhost:3000/assets/games/gacha/pin/9.png":
+          case "http://localhost:3000/assets/images/games/gacha/pin/9.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ガチャピン&ムック";
           break;
-          case "http://localhost:3000/assets/games/gacha/pin/10.png":
+          case "http://localhost:3000/assets/images/games/gacha/pin/10.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ガチャピン";
           break;

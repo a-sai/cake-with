@@ -10,14 +10,14 @@ $(document).on('turbolinks:load', function(){
       const description = 'show-description2';
 
       feh1.addEventListener('click',()=>{
-        document.getElementById(Image).src='assets/games/feh/feh-gacha.png';
+        document.getElementById(Image).src='assets/images/games/feh/feh-gacha.png';
         document.getElementById(rality).innerText = "";
         document.getElementById(description).innerText = "";
         $('.gacha-btn2').attr('id', 'feh-gacha-btn2');
       });
 
       feh2.addEventListener('click',()=>{
-        document.getElementById(Image).src='assets/games/feh/feh-gacha.png';
+        document.getElementById(Image).src='assets/images/games/feh/feh-gacha.png';
         document.getElementById(rality).innerText = "";
         document.getElementById(description).innerText = "";
         $('.gacha-btn2').attr('id', 'feh-gacha-btn2');
@@ -47,10 +47,10 @@ $(document).on('turbolinks:load', function(){
         }
         h1.textContent = "";
 
-        const results1 = ["assets/games/feh/ssr/1.png","assets/games/feh/ssr/2.png","assets/games/feh/ssr/3.png",
-                          "assets/games/feh/ssr/4.png","assets/games/feh/ssr/5.png","assets/games/feh/ssr/6.png",
-                          "assets/games/feh/ssr/7.png","assets/games/feh/ssr/8.png","assets/games/feh/ssr/9.png",
-                          "assets/games/feh/ssr/10.png"
+        const results1 = ["assets/images/games/feh/ssr/1.png","assets/images/games/feh/ssr/2.png","assets/images/games/feh/ssr/3.png",
+                          "assets/images/games/feh/ssr/4.png","assets/images/games/feh/ssr/5.png","assets/images/games/feh/ssr/6.png",
+                          "assets/images/games/feh/ssr/7.png","assets/images/games/feh/ssr/8.png","assets/images/games/feh/ssr/9.png",
+                          "assets/images/games/feh/ssr/10.png"
                         ];
           const n1 = Math.floor(Math.random()*results1.length);
           document.getElementById('gacha-result2').src = results1[n1];
@@ -59,43 +59,43 @@ $(document).on('turbolinks:load', function(){
 
         const gachaResult = document.getElementById('gacha-result2').src;
         switch (gachaResult) {
-          case "http://localhost:3000/assets/games/feh/ssr/1.png":
+          case "http://localhost:3000/assets/images/games/feh/ssr/1.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "ルキナ";
           break;
-          case "http://localhost:3000/assets/games/feh/ssr/2.png":
+          case "http://localhost:3000/assets/images/games/feh/ssr/2.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "リン";
           break;
-          case "http://localhost:3000/assets/games/feh/ssr/3.png":
+          case "http://localhost:3000/assets/images/games/feh/ssr/3.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "つばさ";
           break;
-          case "http://localhost:3000/assets/games/feh/ssr/4.png":
+          case "http://localhost:3000/assets/images/games/feh/ssr/4.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "キヌ";
           break;
-          case "http://localhost:3000/assets/games/feh/ssr/5.png":
+          case "http://localhost:3000/assets/images/games/feh/ssr/5.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "アクア";
           break;
-          case "http://localhost:3000/assets/games/feh/ssr/6.png":
+          case "http://localhost:3000/assets/images/games/feh/ssr/6.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "カムイ";
           break;
-          case "http://localhost:3000/assets/games/feh/ssr/7.png":
+          case "http://localhost:3000/assets/images/games/feh/ssr/7.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "エイル";
           break;
-          case "http://localhost:3000/assets/games/feh/ssr/8.png":
+          case "http://localhost:3000/assets/images/games/feh/ssr/8.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "マルス";
           break;
-          case "http://localhost:3000/assets/games/feh/ssr/9.png":
+          case "http://localhost:3000/assets/images/games/feh/ssr/9.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "ロイ";
           break;
-          case "http://localhost:3000/assets/games/feh/ssr/10.png":
+          case "http://localhost:3000/assets/images/games/feh/ssr/10.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "アイク";
           break;
