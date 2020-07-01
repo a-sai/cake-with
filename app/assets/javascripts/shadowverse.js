@@ -122,7 +122,6 @@ $(document).on('turbolinks:load', function(){
           break;
         };
         const gachaResult = document.getElementById('gacha-result').src;
-        console.log(gachaResult)
         switch (gachaResult) {
           case "http://18.180.186.71/images/games/shadowverse/legend/l_f_1.png":
           var h1 = document.getElementById("show-description");
