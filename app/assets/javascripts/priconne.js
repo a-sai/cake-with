@@ -10,14 +10,14 @@ $(document).on('turbolinks:load', function(){
       const description = 'show-description';
 
       priconne1.addEventListener('click',()=>{
-        document.getElementById(Image).src='assets/images/games/priconne/priconne-gacha.png';
+        document.getElementById(Image).src='/images/games/priconne/priconne-gacha.png';
         document.getElementById(rality).innerText = "";
         document.getElementById(description).innerText = "";
         $('.gacha-btn').attr('id', 'priconne-gacha-btn');
       });
 
       priconne2.addEventListener('click',()=>{
-        document.getElementById(Image).src='assets/images/games/priconne/priconne-gacha.png';
+        document.getElementById(Image).src='/images/games/priconne/priconne-gacha.png';
         document.getElementById(rality).innerText = "";
         document.getElementById(description).innerText = "";
         $('.gacha-btn').attr('id', 'priconne-gacha-btn');
@@ -60,12 +60,12 @@ $(document).on('turbolinks:load', function(){
         switch(gr){
 
           case 3:
-          const results3 = ["assets/images/games/priconne/ssr/1.png","assets/images/games/priconne/ssr/2.png","assets/images/games/priconne/ssr/3.png",
-                            "assets/images/games/priconne/ssr/4.png","assets/images/games/priconne/ssr/5.png","assets/images/games/priconne/ssr/6.png",
-                            "assets/images/games/priconne/ssr/7.png","assets/images/games/priconne/ssr/8.png","assets/images/games/priconne/ssr/9.png",
-                            "assets/images/games/priconne/ssr/10.png","assets/images/games/priconne/ssr/11.png","assets/images/games/priconne/ssr/12.png",
-                            "assets/images/games/priconne/ssr/13.png","assets/images/games/priconne/ssr/14.png","assets/images/games/priconne/ssr/15.png",
-                            "assets/images/games/priconne/ssr/16.png"
+          const results3 = ["/images/games/priconne/ssr/1.png","/images/games/priconne/ssr/2.png","/images/games/priconne/ssr/3.png",
+                            "/images/games/priconne/ssr/4.png","/images/games/priconne/ssr/5.png","/images/games/priconne/ssr/6.png",
+                            "/images/games/priconne/ssr/7.png","/images/games/priconne/ssr/8.png","/images/games/priconne/ssr/9.png",
+                            "/images/games/priconne/ssr/10.png","/images/games/priconne/ssr/11.png","/images/games/priconne/ssr/12.png",
+                            "/images/games/priconne/ssr/13.png","/images/games/priconne/ssr/14.png","/images/games/priconne/ssr/15.png",
+                            "/images/games/priconne/ssr/16.png"
                           ];
             const n3 = Math.floor(Math.random()*results3.length);
             document.getElementById('gacha-result').src = results3[n3];
@@ -74,10 +74,10 @@ $(document).on('turbolinks:load', function(){
           break;
 
           case 2:
-          const results2 = ["assets/images/games/priconne/sr/1.png","assets/images/games/priconne/sr/2.png","assets/images/games/priconne/sr/3.png",
-                            "assets/images/games/priconne/sr/4.png", "assets/images/games/priconne/sr/5.png","assets/images/games/priconne/sr/6.png",
-                            "assets/images/games/priconne/sr/7.png", "assets/images/games/priconne/sr/8.png","assets/images/games/priconne/sr/9.png",
-                            "assets/images/games/priconne/sr/10.png"
+          const results2 = ["/images/games/priconne/sr/1.png","/images/games/priconne/sr/2.png","/images/games/priconne/sr/3.png",
+                            "/images/games/priconne/sr/4.png", "/images/games/priconne/sr/5.png","/images/games/priconne/sr/6.png",
+                            "/images/games/priconne/sr/7.png", "/images/games/priconne/sr/8.png","/images/games/priconne/sr/9.png",
+                            "/images/games/priconne/sr/10.png"
                           ];
             const n2 = Math.floor(Math.random()*results2.length);
             document.getElementById('gacha-result').src = results2[n2];
@@ -86,10 +86,10 @@ $(document).on('turbolinks:load', function(){
           break;
 
           default :
-          const results1 = ["assets/images/games/priconne/r/1.png","assets/images/games/priconne/r/2.png","assets/images/games/priconne/r/3.png",
-                            "assets/images/games/priconne/r/4.png","assets/images/games/priconne/r/5.png","assets/images/games/priconne/r/6.png",
-                            "assets/images/games/priconne/r/7.png","assets/images/games/priconne/r/8.png","assets/images/games/priconne/r/9.png",
-                            "assets/images/games/priconne/r/10.png"
+          const results1 = ["/images/games/priconne/r/1.png","/images/games/priconne/r/2.png","/images/games/priconne/r/3.png",
+                            "/images/games/priconne/r/4.png","/images/games/priconne/r/5.png","/images/games/priconne/r/6.png",
+                            "/images/games/priconne/r/7.png","/images/games/priconne/r/8.png","/images/games/priconne/r/9.png",
+                            "/images/games/priconne/r/10.png"
                           ];
             const n1 = Math.floor(Math.random()*results1.length);
             document.getElementById('gacha-result').src = results1[n1];
@@ -100,147 +100,147 @@ $(document).on('turbolinks:load', function(){
         };
         const gachaResult = document.getElementById('gacha-result').src;
         switch (gachaResult) {
-          case "http://localhost:3000/assets/images/games/priconne/ssr/1.png":
+          case "http://localhost:3000/images/games/priconne/ssr/1.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ユニ";
           break;
-          case "http://localhost:3000/assets/images/games/priconne/ssr/2.png":
+          case "http://localhost:3000/images/games/priconne/ssr/2.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "チエル";
           break;
-          case "http://localhost:3000/assets/images/games/priconne/ssr/3.png":
+          case "http://localhost:3000/images/games/priconne/ssr/3.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "クロエ";
           break;
-          case "http://localhost:3000/assets/images/games/priconne/ssr/4.png":
+          case "http://localhost:3000/images/games/priconne/ssr/4.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "カスミ(マジカル)";
           break;
-          case "http://localhost:3000/assets/images/games/priconne/ssr/5.png":
+          case "http://localhost:3000/images/games/priconne/ssr/5.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "キョウカ(ハロウィン)";
           break;
-          case "http://localhost:3000/assets/images/games/priconne/ssr/6.png":
+          case "http://localhost:3000/images/games/priconne/ssr/6.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "シズル(バレンタイン)";
           break;
-          case "http://localhost:3000/assets/images/games/priconne/ssr/7.png":
+          case "http://localhost:3000/images/games/priconne/ssr/7.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "キャル(ニューイヤー)";
           break;
-          case "http://localhost:3000/assets/images/games/priconne/ssr/8.png":
+          case "http://localhost:3000/images/games/priconne/ssr/8.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "コッコロ(ニューイヤー)";
           break;
-          case "http://localhost:3000/assets/images/games/priconne/ssr/9.png":
+          case "http://localhost:3000/images/games/priconne/ssr/9.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ニノン(オーエド)";
           break;
-          case "http://localhost:3000/assets/images/games/priconne/ssr/10.png":
+          case "http://localhost:3000/images/games/priconne/ssr/10.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "マコト(サマー)";
           break;
-          case "http://localhost:3000/assets/images/games/priconne/ssr/11.png":
+          case "http://localhost:3000/images/games/priconne/ssr/11.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "アンナ";
           break;
-          case "http://localhost:3000/assets/images/games/priconne/ssr/12.png":
+          case "http://localhost:3000/images/games/priconne/ssr/12.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "トモ";
           break;
-          case "http://localhost:3000/assets/images/games/priconne/ssr/13.png":
+          case "http://localhost:3000/images/games/priconne/ssr/13.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "サレン(サマー)";
           break;
-          case "http://localhost:3000/assets/images/games/priconne/ssr/14.png":
+          case "http://localhost:3000/images/games/priconne/ssr/14.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "イリヤ";
           break;
-          case "http://localhost:3000/assets/images/games/priconne/ssr/15.png":
+          case "http://localhost:3000/images/games/priconne/ssr/15.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "マホ";
           break;
-          case "http://localhost:3000/assets/images/games/priconne/ssr/16.png":
+          case "http://localhost:3000/images/games/priconne/ssr/16.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ハツネ";
           break;
-          case "http://localhost:3000/assets/images/games/priconne/sr/1.png":
+          case "http://localhost:3000/images/games/priconne/sr/1.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "タマキ";
           break;
-          case "http://localhost:3000/assets/images/games/priconne/sr/2.png":
+          case "http://localhost:3000/images/games/priconne/sr/2.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ミフユ";
           break;
-          case "http://localhost:3000/assets/images/games/priconne/sr/3.png":
+          case "http://localhost:3000/images/games/priconne/sr/3.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "カオリ";
           break;
-          case "http://localhost:3000/assets/images/games/priconne/sr/4.png":
+          case "http://localhost:3000/images/games/priconne/sr/4.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ミミ";
           break;
-          case "http://localhost:3000/assets/images/games/priconne/sr/5.png":
+          case "http://localhost:3000/images/games/priconne/sr/5.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "シオリ";
           break;
-          case "http://localhost:3000/assets/images/games/priconne/sr/6.png":
+          case "http://localhost:3000/images/games/priconne/sr/6.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ミヤコ";
           break;
-          case "http://localhost:3000/assets/images/games/priconne/sr/7.png":
+          case "http://localhost:3000/images/games/priconne/sr/7.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "アカリ";
           break;
-          case "http://localhost:3000/assets/images/games/priconne/sr/8.png":
+          case "http://localhost:3000/images/games/priconne/sr/8.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "エリコ";
           break;
-          case "http://localhost:3000/assets/images/games/priconne/sr/9.png":
+          case "http://localhost:3000/images/games/priconne/sr/9.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ユキ";
           break;
-          case "http://localhost:3000/assets/images/games/priconne/sr/10.png":
+          case "http://localhost:3000/images/games/priconne/sr/10.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "スズナ";
           break;
-          case "http://localhost:3000/assets/images/games/priconne/r/1.png":
+          case "http://localhost:3000/images/games/priconne/r/1.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ユカリ";
           break;
-          case "http://localhost:3000/assets/images/games/priconne/r/2.png":
+          case "http://localhost:3000/images/games/priconne/r/2.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ミソギ";
           break;
-          case "http://localhost:3000/assets/images/games/priconne/r/3.png":
+          case "http://localhost:3000/images/games/priconne/r/3.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ユイ";
           break;
-          case "http://localhost:3000/assets/images/games/priconne/r/4.png":
+          case "http://localhost:3000/images/games/priconne/r/4.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "レイ";
           break;
-          case "http://localhost:3000/assets/images/games/priconne/r/5.png":
+          case "http://localhost:3000/images/games/priconne/r/5.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ヒヨリ";
           break;
-          case "http://localhost:3000/assets/images/games/priconne/r/6.png":
+          case "http://localhost:3000/images/games/priconne/r/6.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "アオイ";
           break;
-          case "http://localhost:3000/assets/images/games/priconne/r/7.png":
+          case "http://localhost:3000/images/games/priconne/r/7.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "クルミ";
           break;
-          case "http://localhost:3000/assets/images/games/priconne/r/8.png":
+          case "http://localhost:3000/images/games/priconne/r/8.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "アユミ";
           break;
-          case "http://localhost:3000/assets/images/games/priconne/r/9.png":
+          case "http://localhost:3000/images/games/priconne/r/9.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "スズメ";
           break;
-          case "http://localhost:3000/assets/images/games/priconne/r/10.png":
+          case "http://localhost:3000/images/games/priconne/r/10.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ヨリ";
           break;

@@ -9,7 +9,7 @@
         .show-description#show-description
       .gacha-image
         .result-image
-          = image_tag asset_path("games/grablu/gacha.png"), id: "gacha-result", alt: ""
+          = image_tag "/images/games/grablu/gacha.png", id: "gacha-result", alt: ""
         .gacha-btn#gacha-btn
   .ssr-gacha-section
     .ssr-gacha-title{onclick: "scrollToGames2()"} SSR確定ガチャを回す
@@ -20,6 +20,6 @@
         .show-description2#show-description2
       .ssr-gacha-image
         .result-image
-          = image_tag asset_path("games/grablu/gacha-ssr.png"), id: "gacha-result2", alt: ""
+          = image_tag "/images/games/grablu/gacha-ssr.png", id: "gacha-result2", alt: ""
         .gacha-btn2#gacha-btn2
   -# .top-btn{onclick: "scrollToTop()"}

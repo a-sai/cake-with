@@ -1,5 +1,5 @@
 .title_menu
-  = image_tag asset_path("games/top-image/top1.png"), id: "top-image"
+  = image_tag "/images/games/top-image/top1.png", id: "top-image"
 %ul.menu-list
   %li.menu-item#button
   .menu-item#gacha1{onclick: "scrollToGames()"}
@@ -21,7 +21,7 @@
     ↑ ゲーム一覧を表示します
   %li.menu-item2#menu-item2
 .game-list
-  .reflection#change-top{style: "background-image: url(assets/images/games/top-image/top2.png);"}
+  .reflection#change-top{style: "background-image: url(images/games/top-image/top2.png);"}
   %ul.content-menu
     %li.game-item
       .game-icon

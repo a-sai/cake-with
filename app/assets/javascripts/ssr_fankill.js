@@ -10,14 +10,14 @@ $(document).on('turbolinks:load', function(){
       const description = 'show-description2';
 
       fankill1.addEventListener('click',()=>{
-        document.getElementById(Image).src='assets/images/games/fankill/fankill-gacha.png';
+        document.getElementById(Image).src='/images/games/fankill/fankill-gacha.png';
         document.getElementById(rality).innerText = "";
         document.getElementById(description).innerText = "";
         $('.gacha-btn2').attr('id', 'fankill-gacha-btn2');
       });
 
       fankill2.addEventListener('click',()=>{
-        document.getElementById(Image).src='assets/images/games/fankill/fankill-gacha.png';
+        document.getElementById(Image).src='/images/games/fankill/fankill-gacha.png';
         document.getElementById(rality).innerText = "";
         document.getElementById(description).innerText = "";
         $('.gacha-btn2').attr('id', 'fankill-gacha-btn2');
@@ -47,14 +47,14 @@ $(document).on('turbolinks:load', function(){
         }
         h1.textContent = "";
 
-        const results6 = ["assets/images/games/fankill/physics/1.png","assets/images/games/fankill/physics/2.png","assets/images/games/fankill/physics/3.png",
-                          "assets/images/games/fankill/physics/4.png","assets/images/games/fankill/physics/5.png","assets/images/games/fankill/physics/6.png",
-                          "assets/images/games/fankill/physics/7.png","assets/images/games/fankill/physics/8.png","assets/images/games/fankill/physics/9.png",
-                          "assets/images/games/fankill/physics/10.png","assets/images/games/fankill/physics/11.png","assets/images/games/fankill/physics/12.png",
-                          "assets/images/games/fankill/physics/13.png","assets/images/games/fankill/magic/1.png","assets/images/games/fankill/magic/2.png",
-                          "assets/images/games/fankill/magic/3.png","assets/images/games/fankill/magic/4.png","assets/images/games/fankill/magic/5.png",
-                          "assets/images/games/fankill/magic/6.png","assets/images/games/fankill/magic/7.png","assets/images/games/fankill/magic/8.png",
-                          "assets/images/games/fankill/magic/9.png","assets/images/games/fankill/magic/10.png"
+        const results6 = ["/images/games/fankill/physics/1.png","/images/games/fankill/physics/2.png","/images/games/fankill/physics/3.png",
+                          "/images/games/fankill/physics/4.png","/images/games/fankill/physics/5.png","/images/games/fankill/physics/6.png",
+                          "/images/games/fankill/physics/7.png","/images/games/fankill/physics/8.png","/images/games/fankill/physics/9.png",
+                          "/images/games/fankill/physics/10.png","/images/games/fankill/physics/11.png","/images/games/fankill/physics/12.png",
+                          "/images/games/fankill/physics/13.png","/images/games/fankill/magic/1.png","/images/games/fankill/magic/2.png",
+                          "/images/games/fankill/magic/3.png","/images/games/fankill/magic/4.png","/images/games/fankill/magic/5.png",
+                          "/images/games/fankill/magic/6.png","/images/games/fankill/magic/7.png","/images/games/fankill/magic/8.png",
+                          "/images/games/fankill/magic/9.png","/images/games/fankill/magic/10.png"
                         ];
           const n6 = Math.floor(Math.random()*results6.length);
           document.getElementById('gacha-result2').src = results6[n6];
@@ -63,95 +63,95 @@ $(document).on('turbolinks:load', function(){
 
         const gachaResult = document.getElementById('gacha-result2').src;
         switch (gachaResult) {
-          case "http://localhost:3000/assets/images/games/fankill/physics/1.png":
+          case "http://localhost:3000/images/games/fankill/physics/1.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "アスカロン";
           break;
-          case "http://localhost:3000/assets/images/games/fankill/physics/2.png":
+          case "http://localhost:3000/images/games/fankill/physics/2.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "フォルカス";
           break;
-          case "http://localhost:3000/assets/images/games/fankill/physics/3.png":
+          case "http://localhost:3000/images/games/fankill/physics/3.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "ムラマサ";
           break;
-          case "http://localhost:3000/assets/images/games/fankill/physics/4.png":
+          case "http://localhost:3000/images/games/fankill/physics/4.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "シユウ";
           break;
-          case "http://localhost:3000/assets/images/games/fankill/physics/5.png":
+          case "http://localhost:3000/images/games/fankill/physics/5.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "アフロディーテ";
           break;
-          case "http://localhost:3000/assets/images/games/fankill/physics/6.png":
+          case "http://localhost:3000/images/games/fankill/physics/6.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "リットゥ";
           break;
-          case "http://localhost:3000/assets/images/games/fankill/physics/7.png":
+          case "http://localhost:3000/images/games/fankill/physics/7.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "ダーインスレイヴ";
           break;
-          case "http://localhost:3000/assets/images/games/fankill/physics/8.png":
+          case "http://localhost:3000/images/games/fankill/physics/8.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "シタ";
           break;
-          case "http://localhost:3000/assets/images/games/fankill/physics/9.png":
+          case "http://localhost:3000/images/games/fankill/physics/9.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "ハルパー";
           break;
-          case "http://localhost:3000/assets/images/games/fankill/physics/10.png":
+          case "http://localhost:3000/images/games/fankill/physics/10.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "ゲイボルグ";
           break;
-          case "http://localhost:3000/assets/images/games/fankill/physics/11.png":
+          case "http://localhost:3000/images/games/fankill/physics/11.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "青龍偃月刀";
           break;
-          case "http://localhost:3000/assets/images/games/fankill/physics/12.png":
+          case "http://localhost:3000/images/games/fankill/physics/12.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "シェキナー";
           break;
-          case "http://localhost:3000/assets/images/games/fankill/physics/13.png":
+          case "http://localhost:3000/images/games/fankill/physics/13.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "与一";
           break;
-          case "http://localhost:3000/assets/images/games/fankill/magic/1.png":
+          case "http://localhost:3000/images/games/fankill/magic/1.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "グリモワール";
           break;
-          case "http://localhost:3000/assets/images/games/fankill/magic/2.png":
+          case "http://localhost:3000/images/games/fankill/magic/2.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "ヴァナルガンド";
           break;
-          case "http://localhost:3000/assets/images/games/fankill/magic/3.png":
+          case "http://localhost:3000/images/games/fankill/magic/3.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "芭蕉扇";
           break;
-          case "http://localhost:3000/assets/images/games/fankill/magic/4.png":
+          case "http://localhost:3000/images/games/fankill/magic/4.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "ブリューナク";
           break;
-          case "http://localhost:3000/assets/images/games/fankill/magic/5.png":
+          case "http://localhost:3000/images/games/fankill/magic/5.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "ケラウノス";
           break;
-          case "http://localhost:3000/assets/images/games/fankill/magic/6.png":
+          case "http://localhost:3000/images/games/fankill/magic/6.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "アスクレピオス";
           break;
-          case "http://localhost:3000/assets/images/games/fankill/magic/7.png":
+          case "http://localhost:3000/images/games/fankill/magic/7.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "ケーリュケイオン";
           break;
-          case "http://localhost:3000/assets/images/games/fankill/magic/8.png":
+          case "http://localhost:3000/images/games/fankill/magic/8.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "カドケウス";
           break;
-          case "http://localhost:3000/assets/images/games/fankill/magic/9.png":
+          case "http://localhost:3000/images/games/fankill/magic/9.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "ミストルティン";
           break;
-          case "http://localhost:3000/assets/images/games/fankill/magic/10.png":
+          case "http://localhost:3000/images/games/fankill/magic/10.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "フライシュッツ";
           break;
