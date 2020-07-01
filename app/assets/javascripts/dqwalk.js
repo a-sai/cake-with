@@ -99,159 +99,159 @@ $(document).on('turbolinks:load', function(){
         };
         const gachaResult = document.getElementById('gacha-result').src;
         switch (gachaResult) {
-          case "http://localhost:3000/images/games/dqwalk/ssr/1.png":
+          case "http://18.180.186.71/images/games/dqwalk/ssr/1.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ロトのつるぎ";
           break;
-          case "http://localhost:3000/images/games/dqwalk/ssr/2.png":
+          case "http://18.180.186.71/images/games/dqwalk/ssr/2.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "聖盾騎士のオノ";
           break;
-          case "http://localhost:3000/images/games/dqwalk/ssr/3.png":
+          case "http://18.180.186.71/images/games/dqwalk/ssr/3.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "キラーピアス";
           break;
-          case "http://localhost:3000/images/games/dqwalk/ssr/4.png":
+          case "http://18.180.186.71/images/games/dqwalk/ssr/4.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ラーミアの杖";
           break;
-          case "http://localhost:3000/images/games/dqwalk/ssr/5.png":
+          case "http://18.180.186.71/images/games/dqwalk/ssr/5.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "聖女のこん";
           break;
-          case "http://localhost:3000/images/games/dqwalk/ssr/6.png":
+          case "http://18.180.186.71/images/games/dqwalk/ssr/6.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "メタスラのやり";
           break;
-          case "http://localhost:3000/images/games/dqwalk/ssr/7.png":
+          case "http://18.180.186.71/images/games/dqwalk/ssr/7.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "黄竜のツメ";
           break;
-          case "http://localhost:3000/images/games/dqwalk/ssr/8.png":
+          case "http://18.180.186.71/images/games/dqwalk/ssr/8.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ボルケーノウィップ";
           break;
-          case "http://localhost:3000/images/games/dqwalk/ssr/9.png":
+          case "http://18.180.186.71/images/games/dqwalk/ssr/9.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "カンダタトマホーク";
           break;
-          case "http://localhost:3000/images/games/dqwalk/ssr/10.png":
+          case "http://18.180.186.71/images/games/dqwalk/ssr/10.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "勇者の盾";
           break;
-          case "http://localhost:3000/images/games/dqwalk/ssr/11.png":
+          case "http://18.180.186.71/images/games/dqwalk/ssr/11.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "聖女のティアラ";
           break;
-          case "http://localhost:3000/images/games/dqwalk/ssr/12.png":
+          case "http://18.180.186.71/images/games/dqwalk/ssr/12.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "マッスルボディ";
           break;
-          case "http://localhost:3000/images/games/dqwalk/ssr/13.png":
+          case "http://18.180.186.71/images/games/dqwalk/ssr/13.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "書聖のはかま";
           break;
-          case "http://localhost:3000/images/games/dqwalk/sr/1.png":
+          case "http://18.180.186.71/images/games/dqwalk/sr/1.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "戦士の剣";
           break;
-          case "http://localhost:3000/images/games/dqwalk/sr/2.png":
+          case "http://18.180.186.71/images/games/dqwalk/sr/2.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "レックスのオノ";
           break;
-          case "http://localhost:3000/images/games/dqwalk/sr/3.png":
+          case "http://18.180.186.71/images/games/dqwalk/sr/3.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ぎんの短剣";
           break;
-          case "http://localhost:3000/images/games/dqwalk/sr/4.png":
+          case "http://18.180.186.71/images/games/dqwalk/sr/4.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ペロリンステッキ";
           break;
-          case "http://localhost:3000/images/games/dqwalk/sr/5.png":
+          case "http://18.180.186.71/images/games/dqwalk/sr/5.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "まどろみのこん";
           break;
-          case "http://localhost:3000/images/games/dqwalk/sr/6.png":
+          case "http://18.180.186.71/images/games/dqwalk/sr/6.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "パルチザン";
           break;
-          case "http://localhost:3000/images/games/dqwalk/sr/7.png":
+          case "http://18.180.186.71/images/games/dqwalk/sr/7.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "あくまのツメ";
           break;
-          case "http://localhost:3000/images/games/dqwalk/sr/8.png":
+          case "http://18.180.186.71/images/games/dqwalk/sr/8.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "スコーピオンテイル";
           break;
-          case "http://localhost:3000/images/games/dqwalk/sr/9.png":
+          case "http://18.180.186.71/images/games/dqwalk/sr/9.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ツインスワロー";
           break;
-          case "http://localhost:3000/images/games/dqwalk/sr/10.png":
+          case "http://18.180.186.71/images/games/dqwalk/sr/10.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "まほうの盾";
           break;
-          case "http://localhost:3000/images/games/dqwalk/sr/11.png":
+          case "http://18.180.186.71/images/games/dqwalk/sr/11.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "空竜のかぶりもの";
           break;
-          case "http://localhost:3000/images/games/dqwalk/sr/12.png":
+          case "http://18.180.186.71/images/games/dqwalk/sr/12.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "マスターベスト";
           break;
-          case "http://localhost:3000/images/games/dqwalk/sr/13.png":
+          case "http://18.180.186.71/images/games/dqwalk/sr/13.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "無法者のズボン";
           break;
-          case "http://localhost:3000/images/games/dqwalk/r/1.png":
+          case "http://18.180.186.71/images/games/dqwalk/r/1.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "はがねのつるぎ";
           break;
-          case "http://localhost:3000/images/games/dqwalk/r/2.png":
+          case "http://18.180.186.71/images/games/dqwalk/r/2.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "バトルアックス";
           break;
-          case "http://localhost:3000/images/games/dqwalk/r/3.png":
+          case "http://18.180.186.71/images/games/dqwalk/r/3.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "くない";
           break;
-          case "http://localhost:3000/images/games/dqwalk/r/4.png":
+          case "http://18.180.186.71/images/games/dqwalk/r/4.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ラブリースティック";
           break;
-          case "http://localhost:3000/images/games/dqwalk/r/5.png":
+          case "http://18.180.186.71/images/games/dqwalk/r/5.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "セレモニーロッド";
           break;
-          case "http://localhost:3000/images/games/dqwalk/r/6.png":
+          case "http://18.180.186.71/images/games/dqwalk/r/6.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "サタンフォーク";
           break;
-          case "http://localhost:3000/images/games/dqwalk/r/7.png":
+          case "http://18.180.186.71/images/games/dqwalk/r/7.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "こあくまメイル";
           break;
-          case "http://localhost:3000/images/games/dqwalk/r/8.png":
+          case "http://18.180.186.71/images/games/dqwalk/r/8.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ローズウィップ";
           break;
-          case "http://localhost:3000/images/games/dqwalk/r/9.png":
+          case "http://18.180.186.71/images/games/dqwalk/r/9.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ニンジャカッター";
           break;
-          case "http://localhost:3000/images/games/dqwalk/r/10.png":
+          case "http://18.180.186.71/images/games/dqwalk/r/10.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ライトバックラー";
           break;
-          case "http://localhost:3000/images/games/dqwalk/r/11.png":
+          case "http://18.180.186.71/images/games/dqwalk/r/11.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "戦士のかぶと";
           break;
-          case "http://localhost:3000/images/games/dqwalk/r/12.png":
+          case "http://18.180.186.71/images/games/dqwalk/r/12.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ぎんのむねあて";
           break;
-          case "http://localhost:3000/images/games/dqwalk/r/13.png":
+          case "http://18.180.186.71/images/games/dqwalk/r/13.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "魔法使いのズボン";
           break;

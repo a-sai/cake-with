@@ -98,123 +98,123 @@ $(document).on('turbolinks:load', function(){
         };
         const gachaResult = document.getElementById('gacha-result').src;
         switch (gachaResult) {
-          case "http://localhost:3000/images/games/fgo/ssr/1.png":
+          case "http://18.180.186.71/images/games/fgo/ssr/1.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "アルトリア";
           break;
-          case "http://localhost:3000/images/games/fgo/ssr/2.png":
+          case "http://18.180.186.71/images/games/fgo/ssr/2.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "玉藻";
           break;
-          case "http://localhost:3000/images/games/fgo/ssr/3.png":
+          case "http://18.180.186.71/images/games/fgo/ssr/3.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "スカサハ=スカディ";
           break;
-          case "http://localhost:3000/images/games/fgo/ssr/4.png":
+          case "http://18.180.186.71/images/games/fgo/ssr/4.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "諸葛孔明";
           break;
-          case "http://localhost:3000/images/games/fgo/ssr/5.png":
+          case "http://18.180.186.71/images/games/fgo/ssr/5.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ジャンヌ・ダルク";
           break;
-          case "http://localhost:3000/images/games/fgo/ssr/6.png":
+          case "http://18.180.186.71/images/games/fgo/ssr/6.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ギルガメッシュ";
           break;
-          case "http://localhost:3000/images/games/fgo/ssr/7.png":
+          case "http://18.180.186.71/images/games/fgo/ssr/7.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "イシュタル";
           break;
-          case "http://localhost:3000/images/games/fgo/ssr/8.png":
+          case "http://18.180.186.71/images/games/fgo/ssr/8.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "紫式部";
           break;
-          case "http://localhost:3000/images/games/fgo/ssr/9.png":
+          case "http://18.180.186.71/images/games/fgo/ssr/9.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "イスカンダル";
           break;
-          case "http://localhost:3000/images/games/fgo/ssr/10.png":
+          case "http://18.180.186.71/images/games/fgo/ssr/10.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "謎のヒロインX";
           break;
-          case "http://localhost:3000/images/games/fgo/sr/1.png":
+          case "http://18.180.186.71/images/games/fgo/sr/1.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "エミヤ";
           break;
-          case "http://localhost:3000/images/games/fgo/sr/2.png":
+          case "http://18.180.186.71/images/games/fgo/sr/2.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "セイバーオルタ";
           break;
-          case "http://localhost:3000/images/games/fgo/sr/3.png":
+          case "http://18.180.186.71/images/games/fgo/sr/3.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ネロクラウディウス";
           break;
-          case "http://localhost:3000/images/games/fgo/sr/4.png":
+          case "http://18.180.186.71/images/games/fgo/sr/4.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "浅上藤乃";
           break;
-          case "http://localhost:3000/images/games/fgo/sr/5.png":
+          case "http://18.180.186.71/images/games/fgo/sr/5.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "巴御前";
           break;
-          case "http://localhost:3000/images/games/fgo/sr/6.png":
+          case "http://18.180.186.71/images/games/fgo/sr/6.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ゴルゴーン";
           break;
-          case "http://localhost:3000/images/games/fgo/sr/7.png":
+          case "http://18.180.186.71/images/games/fgo/sr/7.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ヘラクレス";
           break;
-          case "http://localhost:3000/images/games/fgo/sr/8.png":
+          case "http://18.180.186.71/images/games/fgo/sr/8.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ランスロット";
           break;
-          case "http://localhost:3000/images/games/fgo/sr/9.png":
+          case "http://18.180.186.71/images/games/fgo/sr/9.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ナイチンゲール(サンタ)";
           break;
-          case "http://localhost:3000/images/games/fgo/sr/10.png":
+          case "http://18.180.186.71/images/games/fgo/sr/10.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ニトクリス";
           break;
-          case "http://localhost:3000/images/games/fgo/r/1.png":
+          case "http://18.180.186.71/images/games/fgo/r/1.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "エウリュアレ";
           break;
-          case "http://localhost:3000/images/games/fgo/r/2.png":
+          case "http://18.180.186.71/images/games/fgo/r/2.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "クーフーリン";
           break;
-          case "http://localhost:3000/images/games/fgo/r/3.png":
+          case "http://18.180.186.71/images/games/fgo/r/3.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "清姫";
           break;
-          case "http://localhost:3000/images/games/fgo/r/4.png":
+          case "http://18.180.186.71/images/games/fgo/r/4.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "メドゥーサ";
           break;
-          case "http://localhost:3000/images/games/fgo/r/5.png":
+          case "http://18.180.186.71/images/games/fgo/r/5.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "パラケルスス";
           break;
-          case "http://localhost:3000/images/games/fgo/r/6.png":
+          case "http://18.180.186.71/images/games/fgo/r/6.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ベディヴィエール";
           break;
-          case "http://localhost:3000/images/games/fgo/r/7.png":
+          case "http://18.180.186.71/images/games/fgo/r/7.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "メディア";
           break;
-          case "http://localhost:3000/images/games/fgo/r/8.png":
+          case "http://18.180.186.71/images/games/fgo/r/8.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "呂布奉先";
           break;
-          case "http://localhost:3000/images/games/fgo/r/9.png":
+          case "http://18.180.186.71/images/games/fgo/r/9.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ブーディカ";
           break;
-          case "http://localhost:3000/images/games/fgo/r/10.png":
+          case "http://18.180.186.71/images/games/fgo/r/10.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "赤兎馬";
           break;

@@ -111,171 +111,171 @@ $(document).on('turbolinks:load', function(){
         };
         const gachaResult = document.getElementById('gacha-result').src;
         switch (gachaResult) {
-          case "http://localhost:3000/images/games/yugioh/ur/1.png":
+          case "http://18.180.186.71/images/games/yugioh/ur/1.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "デュナミス・ヴァルキリア";
           break;
-          case "http://localhost:3000/images/games/yugioh/ur/2.png":
+          case "http://18.180.186.71/images/games/yugioh/ur/2.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "混沌の黒魔術師";
           break;
-          case "http://localhost:3000/images/games/yugioh/ur/3.png":
+          case "http://18.180.186.71/images/games/yugioh/ur/3.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "サイバー・ドラゴン";
           break;
-          case "http://localhost:3000/images/games/yugioh/ur/4.png":
+          case "http://18.180.186.71/images/games/yugioh/ur/4.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "カオス・ソルジャー";
           break;
-          case "http://localhost:3000/images/games/yugioh/ur/5.png":
+          case "http://18.180.186.71/images/games/yugioh/ur/5.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "青眼の究極竜";
           break;
-          case "http://localhost:3000/images/games/yugioh/ur/6.png":
+          case "http://18.180.186.71/images/games/yugioh/ur/6.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "竜騎士ブラック・マジシャン・ガール";
           break;
-          case "http://localhost:3000/images/games/yugioh/ur/7.png":
+          case "http://18.180.186.71/images/games/yugioh/ur/7.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ブラック・ローズ・ドラゴン";
           break;
-          case "http://localhost:3000/images/games/yugioh/ur/8.png":
+          case "http://18.180.186.71/images/games/yugioh/ur/8.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "氷結界の龍 ブリューナク";
           break;
-          case "http://localhost:3000/images/games/yugioh/ur/9.png":
+          case "http://18.180.186.71/images/games/yugioh/ur/9.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "予想GUY";
           break;
-          case "http://localhost:3000/images/games/yugioh/ur/10.png":
+          case "http://18.180.186.71/images/games/yugioh/ur/10.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "融合解除";
           break;
-          case "http://localhost:3000/images/games/yugioh/ur/11.png":
+          case "http://18.180.186.71/images/games/yugioh/ur/11.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "鎖付きブーメラン";
           break;
-          case "http://localhost:3000/images/games/yugioh/ur/12.png":
+          case "http://18.180.186.71/images/games/yugioh/ur/12.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "万能地雷グレイモヤ";
           break;
-          case "http://localhost:3000/images/games/yugioh/sr/1.png":
+          case "http://18.180.186.71/images/games/yugioh/sr/1.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "デーモンの召喚";
           break;
-          case "http://localhost:3000/images/games/yugioh/sr/2.png":
+          case "http://18.180.186.71/images/games/yugioh/sr/2.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "グリーン・ガジェット";
           break;
-          case "http://localhost:3000/images/games/yugioh/sr/3.png":
+          case "http://18.180.186.71/images/games/yugioh/sr/3.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "レッド・ガジェット";
           break;
-          case "http://localhost:3000/images/games/yugioh/sr/4.png":
+          case "http://18.180.186.71/images/games/yugioh/sr/4.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "イエロー・ガジェット";
           break;
-          case "http://localhost:3000/images/games/yugioh/sr/5.png":
+          case "http://18.180.186.71/images/games/yugioh/sr/5.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "天翔の竜騎士ガイア";
           break;
-          case "http://localhost:3000/images/games/yugioh/sr/6.png":
+          case "http://18.180.186.71/images/games/yugioh/sr/6.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "氷結界の龍 グングニール";
           break;
-          case "http://localhost:3000/images/games/yugioh/sr/7.png":
+          case "http://18.180.186.71/images/games/yugioh/sr/7.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "非常食";
           break;
-          case "http://localhost:3000/images/games/yugioh/sr/8.png":
+          case "http://18.180.186.71/images/games/yugioh/sr/8.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "光の援軍";
           break;
-          case "http://localhost:3000/images/games/yugioh/sr/9.png":
+          case "http://18.180.186.71/images/games/yugioh/sr/9.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "マジカルシルクハット";
           break;
-          case "http://localhost:3000/images/games/yugioh/sr/10.png":
+          case "http://18.180.186.71/images/games/yugioh/sr/10.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "フリッグのリンゴ";
           break;
-          case "http://localhost:3000/images/games/yugioh/r/1.png":
+          case "http://18.180.186.71/images/games/yugioh/r/1.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ギガ・ガガギゴ";
           break;
-          case "http://localhost:3000/images/games/yugioh/r/2.png":
+          case "http://18.180.186.71/images/games/yugioh/r/2.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ジェネクス・コントローラー";
           break;
-          case "http://localhost:3000/images/games/yugioh/r/3.png":
+          case "http://18.180.186.71/images/games/yugioh/r/3.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "貫ガエル";
           break;
-          case "http://localhost:3000/images/games/yugioh/r/4.png":
+          case "http://18.180.186.71/images/games/yugioh/r/4.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "粋カエル";
           break;
-          case "http://localhost:3000/images/games/yugioh/r/5.png":
+          case "http://18.180.186.71/images/games/yugioh/r/5.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "裏ガエル";
           break;
-          case "http://localhost:3000/images/games/yugioh/r/6.png":
+          case "http://18.180.186.71/images/games/yugioh/r/6.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "子型ペンギン";
           break;
-          case "http://localhost:3000/images/games/yugioh/r/7.png":
+          case "http://18.180.186.71/images/games/yugioh/r/7.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "星屑のきらめき";
           break;
-          case "http://localhost:3000/images/games/yugioh/r/8.png":
+          case "http://18.180.186.71/images/games/yugioh/r/8.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "進撃の帝王";
           break;
-          case "http://localhost:3000/images/games/yugioh/r/9.png":
+          case "http://18.180.186.71/images/games/yugioh/r/9.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "星屑の残光";
           break;
-          case "http://localhost:3000/images/games/yugioh/r/10.png":
+          case "http://18.180.186.71/images/games/yugioh/r/10.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "立ちはだかる強敵";
           break;
-          case "http://localhost:3000/images/games/yugioh/n/1.png":
+          case "http://18.180.186.71/images/games/yugioh/n/1.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "アイツ";
           break;
-          case "http://localhost:3000/images/games/yugioh/n/2.png":
+          case "http://18.180.186.71/images/games/yugioh/n/2.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ソイツ";
           break;
-          case "http://localhost:3000/images/games/yugioh/n/3.png":
+          case "http://18.180.186.71/images/games/yugioh/n/3.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "コイツ";
           break;
-          case "http://localhost:3000/images/games/yugioh/n/4.png":
+          case "http://18.180.186.71/images/games/yugioh/n/4.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "ドイツ";
           break;
-          case "http://localhost:3000/images/games/yugioh/n/5.png":
+          case "http://18.180.186.71/images/games/yugioh/n/5.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "魔法のランプ";
           break;
-          case "http://localhost:3000/images/games/yugioh/n/6.png":
+          case "http://18.180.186.71/images/games/yugioh/n/6.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "女王の影武者";
           break;
-          case "http://localhost:3000/images/games/yugioh/n/7.png":
+          case "http://18.180.186.71/images/games/yugioh/n/7.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "7";
           break;
-          case "http://localhost:3000/images/games/yugioh/n/8.png":
+          case "http://18.180.186.71/images/games/yugioh/n/8.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "カオスの儀式";
           break;
-          case "http://localhost:3000/images/games/yugioh/n/9.png":
+          case "http://18.180.186.71/images/games/yugioh/n/9.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "シューティング・スター";
           break;
-          case "http://localhost:3000/images/games/yugioh/n/10.png":
+          case "http://18.180.186.71/images/games/yugioh/n/10.png":
           var h1 = document.getElementById("show-description");
           h1.textContent = "スターゲート";
           break;

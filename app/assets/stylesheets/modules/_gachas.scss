@@ -252,7 +252,7 @@ img {
     .content-menu {
       width: 100%;
       padding: 0 10px 0 10px;
-      background-image: url(/assets/common/gacha-background.png);
+      background-image: url(/images/common/gacha-background.png);
       border-bottom: 1px solid #e5e5e5;
       display: flex;
       flex-wrap: wrap;
@@ -368,7 +368,7 @@ img {
       background-color: #FFF;
       margin-bottom: 10px;
       background-size: 100% auto;
-      background-image: url(/assets/common/gacha-background.png);
+      background-image: url(/images/common/gacha-background.png);
       .main-title {
         width: 760px;
         background: #444;
@@ -390,7 +390,7 @@ img {
           margin: auto;
           margin-top: 10px;
           margin-bottom: 10px;
-          background-image: url(/assets/common/gacha-title-bar.png);
+          background-image: url(/images/common/gacha-title-bar.png);
           padding-left: 20px;
           color: #FFF;
           text-shadow: 2px 2px 0px rgba(34,25,24,1);
@@ -417,7 +417,7 @@ img {
           border-radius: 10px;
           cursor: pointer;
           user-select: none;
-          background: url(/assets/common/gacha-btn.png);
+          background: url(/images/common/gacha-btn.png);
           background-size: contain, cover;
           text-align:center;
         }
