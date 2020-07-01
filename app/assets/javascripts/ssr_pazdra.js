@@ -10,14 +10,14 @@ $(document).on('turbolinks:load', function(){
       const description = 'show-description2';
 
       pazdra1.addEventListener('click',()=>{
-        document.getElementById(Image).src='assets/images/games/pazdra/pazdra-gacha.png';
+        document.getElementById(Image).src='/images/games/pazdra/pazdra-gacha.png';
         document.getElementById(rality).innerText = "";
         document.getElementById(description).innerText = "";
         $('.gacha-btn2').attr('id', 'pazdra-gacha-btn2');
       });
 
       pazdra2.addEventListener('click',()=>{
-        document.getElementById(Image).src='assets/images/games/pazdra/pazdra-gacha.png';
+        document.getElementById(Image).src='/images/games/pazdra/pazdra-gacha.png';
         document.getElementById(rality).innerText = "";
         document.getElementById(description).innerText = "";
         $('.gacha-btn2').attr('id', 'pazdra-gacha-btn2');
@@ -47,10 +47,10 @@ $(document).on('turbolinks:load', function(){
         }
         h1.textContent = "";
 
-        const results1 = ["assets/images/games/pazdra/ssr/1.png","assets/images/games/pazdra/ssr/2.png","assets/images/games/pazdra/ssr/3.png",
-                          "assets/images/games/pazdra/ssr/4.png","assets/images/games/pazdra/ssr/5.png","assets/images/games/pazdra/ssr/6.png",
-                          "assets/images/games/pazdra/ssr/7.png","assets/images/games/pazdra/ssr/8.png","assets/images/games/pazdra/ssr/9.png",
-                          "assets/images/games/pazdra/ssr/10.png"
+        const results1 = ["/images/games/pazdra/ssr/1.png","/images/games/pazdra/ssr/2.png","/images/games/pazdra/ssr/3.png",
+                          "/images/games/pazdra/ssr/4.png","/images/games/pazdra/ssr/5.png","/images/games/pazdra/ssr/6.png",
+                          "/images/games/pazdra/ssr/7.png","/images/games/pazdra/ssr/8.png","/images/games/pazdra/ssr/9.png",
+                          "/images/games/pazdra/ssr/10.png"
                         ];
           const n1 = Math.floor(Math.random()*results1.length);
           document.getElementById('gacha-result2').src = results1[n1];
@@ -59,43 +59,43 @@ $(document).on('turbolinks:load', function(){
 
         const gachaResult = document.getElementById('gacha-result2').src;
         switch (gachaResult) {
-          case "http://localhost:3000/assets/images/games/pazdra/ssr/1.png":
+          case "http://localhost:3000/images/games/pazdra/ssr/1.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "レムゥ";
           break;
-          case "http://localhost:3000/assets/images/games/pazdra/ssr/2.png":
+          case "http://localhost:3000/images/games/pazdra/ssr/2.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "ノルザ";
           break;
-          case "http://localhost:3000/assets/images/games/pazdra/ssr/3.png":
+          case "http://localhost:3000/images/games/pazdra/ssr/3.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "アルジェ";
           break;
-          case "http://localhost:3000/assets/images/games/pazdra/ssr/4.png":
+          case "http://localhost:3000/images/games/pazdra/ssr/4.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "ファスカ";
           break;
-          case "http://localhost:3000/assets/images/games/pazdra/ssr/5.png":
+          case "http://localhost:3000/images/games/pazdra/ssr/5.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "ネレ";
           break;
-          case "http://localhost:3000/assets/images/games/pazdra/ssr/6.png":
+          case "http://localhost:3000/images/games/pazdra/ssr/6.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "龍刀・蛇骨姫";
           break;
-          case "http://localhost:3000/assets/images/games/pazdra/ssr/7.png":
+          case "http://localhost:3000/images/games/pazdra/ssr/7.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "龍刀・薄霧";
           break;
-          case "http://localhost:3000/assets/images/games/pazdra/ssr/8.png":
+          case "http://localhost:3000/images/games/pazdra/ssr/8.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "龍刀・九斬公";
           break;
-          case "http://localhost:3000/assets/images/games/pazdra/ssr/9.png":
+          case "http://localhost:3000/images/games/pazdra/ssr/9.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "龍刀・我乱童子";
           break;
-          case "http://localhost:3000/assets/images/games/pazdra/ssr/10.png":
+          case "http://localhost:3000/images/games/pazdra/ssr/10.png":
           var h1 = document.getElementById("show-description2");
           h1.textContent = "龍刀・宙天丸";
           break;
